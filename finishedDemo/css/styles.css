@@ -1,0 +1,29 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+p {
+  font-weight: bold;
+  font-size: 0.8em; }
+
+body {
+  font: Lato, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333; }
+
+h1, h3 {
+  font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom: 10px; }
+
+form {
+  padding: 35px;
+  border: 2px solid #333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+  form label {
+    font-size: 1.5em; }
+  form input {
+    font-size: 1em; }
+
+/*# sourceMappingURL=styles.css.map */

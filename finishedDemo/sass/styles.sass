@@ -1,0 +1,41 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css)
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300)
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic)
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css)
+@import 'partial'
+
+
+$font-stack:     'Helvetica Neue', Helvetica, sans-serif
+$primary-color: #333
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+body 
+  font: Lato, $font-stack
+  color: $primary-color
+
+h1
+  font-family: Raleway, $font-stack
+  padding-bottom: 10px
+
+h3
+  @extend h1
+
+form
+  padding: 35px
+  border: 2px solid $primary-color
+  +border-radius(10px)
+  label
+    font-size: 1 + .5em
+
+  input
+    font-size: 1em
+
+  
+
+
+  
