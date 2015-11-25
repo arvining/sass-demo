@@ -2,5 +2,20 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+p {
+  font-size: 30px;
+  font-color: #FF1493;
+  font-style: italics; }
+
+h1, h3 {
+  color: #9400D3;
+  font-weight: bold; }
+
+form {
+  padding: 35px; }
+  form label {
+    font-size: 2em; }
+  form input {
+    font-size: 2em; }
 
 /*# sourceMappingURL=styles.css.map */
